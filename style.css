@@ -1,0 +1,65 @@
+:root{ --belezza--: "Viaoda Libre", serif;
+        --fonte-padrao:"Roboto", sans-serif;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #162028;
+    font-family: var(--fonte-padrao);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.menu-lista{
+    display: flex;
+    list-style: none;
+    padding: 0rem 5rem;
+    align-items: center;
+
+
+}
+.menu-lista li a{
+    text-decoration: none;
+    color: #425564 ;
+    margin: 2rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+
+}
+
+.logo{
+    font-family: var(--belezza--);
+    color: white;
+    font-size: 2rem;
+    padding: 0.2rem;
+    margin: 0px 0px 0px 15rem;
+    font-weight: 200;
+}
+
+.menu-lista :hover{
+    color: white;
+    transition: 0.5s;
+}
+
+h1{
+    font-family:var(--belezza--);
+    font-weight: 100;
+    text-align: center;
+    margin: 8rem 8rem 3rem;
+
+}
+
+.p-h1{
+    font-family: var(--fonte-padrao);
+    font-weight: 300;
+    text-align: center;
+    padding: 0rem 29rem; 
+    line-height: 2rem;
+}
